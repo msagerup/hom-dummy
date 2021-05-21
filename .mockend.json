@@ -1,6 +1,6 @@
 
     {
-       "Topic" : [{
+       "Topic" : {
          "title":"string",
          "icon":"string",
          "subTopics":[
@@ -20,7 +20,7 @@
                   }
                ]
             }
-         ]}]
+         ]}
     }
  
 
