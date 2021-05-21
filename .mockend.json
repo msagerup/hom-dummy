@@ -2,8 +2,23 @@
     {
        "Topic" : {
          "title":"string",
-         "icon":"string"
-       }
+         "icon":"string",
+         "subTopics":[
+            {
+               "title":"string",
+               "subTopics":"SubTopics[]"
+            }
+         ]},
+         "SubTopics": {
+            "title":"string",
+            "text":"string",
+            "subTopics":"SubTopics[]"
+         },
+         "SubTopics" : {
+            "title":"string",
+            "text":"string",
+            "icon":"string"
+         }
     }
  
 
