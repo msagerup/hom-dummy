@@ -1,25 +1,13 @@
-
-    {
-       "Topic" : [{
-         "title":"Funksjoner",
-         "icon":"functions.png",
-         "subTopics":[
-            {
-               "title":"Funksjonsteori",
-               "subTopics":[
-                  {
-                     "title":"Grunnleggende om funksjoner",
-                     "text":"Dette emnet lærer deg hva en funksjon er, hvorfor de er nyttige, hvordan du tegner dem og litt om viktige punkter og verdier.",
-                     "subTopics":[
-                        {
-                           "title":"Koordinatsystemet",
-                           "text":"Et koordinatsystem er et rutenett som dannes ved at to tallinjer krysser hverandre der de begge har tallet null. Dette skjæringspunktet kalles origo. Du skal bare se på den delen av koordinatsystemet som har positive tall. Koordinatsystemet ser slik ut:  osv.",
-                           "icon":"first_imagsvg"
-                        }
-                     ]
-                  }
-               ]
-            }
-         ]}]
-    }
- 
+{
+   "Post": {
+     "title": "string",
+     "views": "int",
+     "published": "boolean",
+     "createdAt": "date",
+     "comments": "Comment[]"
+   },
+   "Comment": {
+     "body": "string",
+     "post": "Post"
+   }
+ }
