@@ -6,21 +6,19 @@
          "subTopics":[
             {
                "title":"string",
-               "subTopics":[
-                  {
-                     "title":"string",
-                     "text":"string",
-                     "subTopics":[
-                        {
-                           "title":"string",
-                           "text":"string",
-                           "icon":"string"
-                        }
-                     ]
-                  }
-               ]
+               "subTopics":"SubTopics[]"
             }
-         ]}
+         ]},
+         "SubTopics": {
+            "title":"string",
+            "text":"string",
+            "subTopics":"SubTopics[]"
+         },
+         "SubTopics" : {
+            "title":"string",
+            "text":"string",
+            "icon":"string"
+         }
     }
  
 
