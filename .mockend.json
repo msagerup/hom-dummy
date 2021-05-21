@@ -1,13 +1,28 @@
-{
-   "Post": {
-     "title": "string",
-     "views": "int",
-     "published": "boolean",
-     "createdAt": "date",
-     "comments": "Comment[]"
-   },
-   "Comment": {
-     "body": "string",
-     "post": "Post"
-   }
- }
+
+    {
+       "Topic" : [{
+         "title":"string",
+         "icon":"string",
+         "subTopics":[
+            {
+               "title":"string",
+               "subTopics":[
+                  {
+                     "title":"string",
+                     "text":"string",
+                     "subTopics":[
+                        {
+                           "title":"string",
+                           "text":"string",
+                           "icon":"string"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]}]
+    }
+ 
+
+
+    
